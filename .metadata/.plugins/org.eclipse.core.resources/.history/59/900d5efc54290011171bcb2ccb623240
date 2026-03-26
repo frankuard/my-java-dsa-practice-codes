@@ -1,0 +1,21 @@
+package javaDSA;
+
+// PRINTING  A RECTANGLE WITH HOLLOW IN THE MIDDLE
+public class number2 {
+
+	public static void main(String[] args) {
+		
+		int n= 4;
+		int m= 5;
+		for (int i=1;i<=n; i++){
+			for (int j=1;i<=m;j++) {
+				if (i ==1 || j==1 || i==n || j==m) {
+					System.out.print("*");
+				}
+				System.out.println();
+			}
+		}
+	}
+}
+
+   

@@ -1,0 +1,10 @@
+package javaDSA;
+
+// INVERTED HALF PYRAMID WITH NUMBERS
+public class number7 {
+
+	public static void main(String[] args{
+		
+		
+	}
+}
