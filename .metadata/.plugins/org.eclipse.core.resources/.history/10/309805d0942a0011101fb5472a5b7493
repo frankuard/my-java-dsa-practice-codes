@@ -5,27 +5,18 @@ package javaDSA;
 public class number13 {
  
 	public static void main(String[] args) {
-		
-		// INITALIZING VALUE
 		int n=5;
 		
-		// OUTER LOOP
 		for (int i=1; i<=n; i++) {
 			
-			// SPACES
 			int spaces= n-i;
-			
-			// INNER LOOP - FOR SPACES
 			for (int j=1;j<=spaces;j++) {
 				
 				System.out.print(" ");
 			}
-			// INNER LOOP- 1ST HALF NUMBERS
 			for (int j=i;j>=1;j--) {
 				System.out.print(j);
 			}
-			
-			// INNER LOOPS- 2ND HALF NUMBERS
 			for (int j=2;j<=i;j++) {
 				System.out.print(j);
 			}
