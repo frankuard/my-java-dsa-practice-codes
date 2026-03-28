@@ -1,0 +1,10 @@
+package javaDSA;
+
+// PALINDROME NUMBER
+
+public class number13 {
+ 
+	public static void main(String[] args) {
+		
+	}
+}

@@ -1,0 +1,10 @@
+package javaDSA;
+
+
+// PRINTING BUTTERLFY PATTERN
+public class number10 {
+
+	int n = 4;
+	
+	
+}

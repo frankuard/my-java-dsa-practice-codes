@@ -1,0 +1,31 @@
+package javaDSA;
+
+// Number Pyramid
+public class question12 {
+
+	public static void main(String[] args) {
+		 
+		int n=5;
+		
+		// OUTER LOOP 
+		for (int i=1; i<=n;i++) {
+			
+			// INITIALIZE SPACE NUMBER
+			int spaces= n-i;
+			
+			// INNER FIRST LOOP OF SPACES
+			
+			for (int j=1;j<=spaces; j++) {
+				System.out.print(" ");
+			}
+			// INNER SECOND LOOP OF NUMER WITH SPACES
+			
+			for (int j=1;j<=i;j++) {
+				System.out.print(i);
+				System.out.print(" ");
+			}
+			// LINE BREAK
+			System.out.println();
+		}
+	}
+}
