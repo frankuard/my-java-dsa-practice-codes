@@ -1,0 +1,36 @@
+package javaDSA;
+import java.util.*;
+
+public class stringBuilder {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder("Roshan");
+		
+		// CHARACTER AT INDEX 0
+		
+		System.out.println(sb.charAt(0));
+		
+		
+		// 	REPLACING CHARACTER AT INDEX
+		
+		// USING '' SIGNIFIES AS A CHAR BUT USING "" MAKES IT A STRING OBJECT;
+		
+		sb.setCharAt(0,'L');
+		System.out.println(sb);
+		
+		
+		// SETING NEW INDEX 
+		
+		sb.insert(1, 'o');
+		System.out.println(sb);	
+		
+		// DELETING EXTRA o
+		
+		sb.delete(1,2);
+		System.out.println(sb);
+		
+		sb.delete(0, 2);
+		System.out.println(sb);
+	}
+}

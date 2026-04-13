@@ -1,0 +1,17 @@
+package javaDSA;
+import java.util.*;
+
+public class twoDArray {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		int rows = scanner.nextInt();
+		int cols = scanner.nextInt();
+	
+	
+		int[][] numbers = new int[rows][cols];
+		
+		
+	}
+}

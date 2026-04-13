@@ -1,0 +1,43 @@
+package javaDSA;
+import java.util.*;
+
+public class twoDArray {
+
+	public static void main(String[] args) {
+		
+		
+		// IMPORTING THE SCANNER
+		Scanner scanner = new Scanner(System.in);
+		
+		// ADDING VALUES OF ROWS AND COLUMNS
+		System.out.println("Enter the rows of the Array");
+		int rows = scanner.nextInt();
+		
+		System.out.println("Enter the columns of the Array");
+		int cols = scanner.nextInt();
+	
+		// INITALIZING THE ARRAY
+		int[][] numbers = new int[rows][cols];
+		
+		
+		// LOOP FOR ROWS AND COLUMNS
+		
+		for (int i =1 ; i<rows;i++) {
+			for (int j=1;j<cols;j++) {
+				
+			// INPUT	
+				numbers[i][j] = scanner.nextInt();
+				}
+		}
+	
+		for (int i =1 ; i<rows;i++) {
+			for (int j=1;j<cols;j++) {
+				
+			// OUTPUT
+				System.out.println(numbers[i][j]+ " ");
+				}
+			System.out.println();
+		}
+		scanner.close();
+	}
+}

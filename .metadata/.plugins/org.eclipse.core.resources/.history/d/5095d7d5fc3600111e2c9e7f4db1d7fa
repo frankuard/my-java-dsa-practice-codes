@@ -1,0 +1,21 @@
+package javaDSA;
+import java.util.*;
+
+public class stringBuilder {
+
+	public static void main(String[] args) {
+		
+		StringBuilder sb = new StringBuilder("Roshan");
+		
+		// CHARACTER AT INDEX 0
+		
+		System.out.println(sb.charAt(0));
+		
+		
+		// 	SET CHARACTER AT INDEX
+		
+		// USING '' SIGNIFIES AS A CHAR BUT USING "" MAKES IT A STRING OBJECT;
+		
+		sb.setCharAt(0,'L');
+	}
+}

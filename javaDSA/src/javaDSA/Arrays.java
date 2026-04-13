@@ -1,0 +1,64 @@
+package javaDSA;
+
+import java.util.*;
+
+
+public class Arrays {
+
+	public static void main(String[] args) {
+		
+		// PREDEFINED MARKS
+//		int[] marks = new int[3];
+		
+		
+		// DYNAMIC ON COMPILE TIME
+//		int marks[] = {97,98,95};
+		
+//		marks[0] = 97;
+//		marks[1] = 23;
+//		marks[2] = 67;
+		
+		//  MANUAL METHOD
+//		System.out.println(marks[0]);
+//		System.out.println(marks[1]);
+//		System.out.println(marks[2]);
+		
+		
+		
+		Scanner scanner = new Scanner(System.in);
+		int size = scanner.nextInt();
+		
+		int numbers[] = new int[size];
+		
+		// LOOPING
+		
+		for (int i=0; i<size;i++) {
+			numbers[i] = scanner.nextInt();
+		}
+		
+		int x= scanner.nextInt();
+		
+		
+		for (int i=0;i<numbers.length;i++) {
+			
+			if (numbers[i] == x) {
+				System.out.println("X found at index:"+ i );
+			}
+		}
+		
+		
+//		for (int i=0;i<size;i++) {
+//			
+//			System.out.println(numbers[i]);
+//		}
+		
+		
+//		for (int i=0;i<3;i++) {
+//			System.out.println(marks[i]);
+//		
+		scanner.close();
+		}
+	
+
+	}
+
